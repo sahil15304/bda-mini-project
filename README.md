@@ -39,8 +39,8 @@ bda-mini-project/
         ├── plot_dau.png
         ├── plot_views_vs_buys.png
         └── plot_conversion_rate.png
+```
 
----
 
 ---
 
