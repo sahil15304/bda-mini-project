@@ -17,27 +17,28 @@ The project demonstrates batch analytics, streaming analytics, probabilistic dat
 
 ## ✅ Folder Structure
 
+```
 bda-mini-project/
 │
 ├── README.md
 │
 ├── colab/
-│ └── BDA_MiniProject_Colab.ipynb
+│   └── BDA_MiniProject_Colab.ipynb
 │
 ├── data/
-│ ├── product_agg.csv
-│ ├── item_topk.csv
-│ ├── product_agg.json
-│ ├── item_topk.json
-│ ├── r_dau.csv
-│ └── r_cat_stats.csv
+│   ├── product_agg.csv
+│   ├── item_topk.csv
+│   ├── product_agg.json
+│   ├── item_topk.json
+│   ├── r_dau.csv
+│   └── r_cat_stats.csv
 │
 └── r/
-├── BDA_R_Analytics.R
-└── plots/
-├── plot_dau.png
-├── plot_views_vs_buys.png
-└── plot_conversion_rate.png
+    ├── BDA_R_Analytics.R
+    └── plots/
+        ├── plot_dau.png
+        ├── plot_views_vs_buys.png
+        └── plot_conversion_rate.png
 
 ---
 
