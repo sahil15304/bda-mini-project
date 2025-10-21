@@ -15,29 +15,6 @@ The project demonstrates batch analytics, streaming analytics, probabilistic dat
 
 ---
 
-## ✅ Architecture
-
-Synthetic Clickstream Data
-│
-┌────────▼────────┐
-│ PySpark Batch │ (Relational Ops + Co-occurrence)
-└────────┬────────┘
-│
-Aggregates → product_agg.* (CSV/JSON)
-│
-Similarity → item_topk.* (CSV/JSON)
-│
-┌────────▼────────┐
-│ Streaming │ (Bloom + FM + DGIM)
-└────────┬────────┘
-│
-┌────────▼────────┐
-│ R Visuals │ (DAU + Category Analytics)
-└─────────────────┘
-
-
----
-
 ## ✅ Folder Structure
 
 bda-mini-project/
